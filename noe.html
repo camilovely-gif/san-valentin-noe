@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> flor de lirio </title>
+    <link rel="stylesheet" href="noe.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>💕 mi flor de lirio 💕</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#parejas"> parejas </a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#mensajes">Mensajes de Amor</a></li>
+                <li><a href="#galeria2">Más Recuerdos</a></li>
+                <li><a href="#contacto">footer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección Inicio -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h2> Gracias por pasar otro año a mi lado</h2>
+            <p>Entre risas y secretos, descubrimos que amar es mostrarnos tal como somos, sin máscaras.</p>
+            <a href="#parejas" class="btn-hero">Explora el amor</a>
+        </div>
+    </section>
+
+    <!-- Carrusel de Parejas -->
+    <section id="parejas" class="carousel-section">
+        <h2 class="section-title">Parejas </h2>
+        <p class="section-subtitle">Desliza para conocer mas sobre nosotras</p>
+        
+        <div class="carousel-container">
+            <button class="carousel-btn prev" onclick="moveCarousel(-1)">❮</button>
+            
+            <div class="carousel">
+                <div class="carousel-item active">
+                    <div class="carousel-image">
+                        <img src="imagenes/lumity.jpg" alt="Pareja de Anime 1">
+                    </div>
+                    <div class="carousel-text">
+                        <h3>Lumity</h3>
+                        <p>Como tú y yo, somos risa nerviosa y besos robados.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="carousel-image">
+                        <img src="imagenes/mitsuaya.jpg" alt="Pareja de Anime 2">
+                    </div>
+                    <div class="carousel-text">
+                        <h3>mitsuaya</h3>
+                        <p>Como tú y yo, somos promesas suaves y <br> miradas que lo dicen todo.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="carousel-image">
+                        <img src="imagenes/togachako.jpg" alt="Pareja de Anime 3">
+                    </div>
+                    <div class="carousel-text">
+                        <h3>togachako</h3>
+                        <p>Como tú y yo, somos ternura escondida entre <br> fuerza y cicatrices.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="carousel-image">
+                        <img src="imagenes/obamitsu.jpg" alt="Pareja de Anime 4">
+                    </div>
+                    <div class="carousel-text">
+                        <h3>obamitsu</h3>
+                        <p>Como tú y yo, somos locura compartida <br> y abrazos que curan.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="carousel-image">
+                        <img src="imagenes/serinuma.jpg" alt="Pareja de Anime 5">
+                    </div>
+                    <div class="carousel-text">
+                        <h3>Serima</h3>
+                        <p>Como tú y yo, somos complicidad secreta <br> y sonrisas que brillan igual.</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-btn next" onclick="moveCarousel(1)">❯</button>
+        </div>
+
+        <div class="carousel-dots">
+            <span class="dot active" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+    </section>
+
+    <!-- Galería de Imágenes -->
+    <section id="galeria" class="gallery-section">
+        <h2 class="section-title">Momentos Especiales</h2>
+        <p class="section-subtitle">Cada imagen cuenta una historia única</p>
+        
+        <div class="gallery">
+            <div class="gallery-item item-large">
+                <img src="imagenes/dz4.jpg" alt="Momento romántico 1">
+                <div class="gallery-overlay">
+                    <p>"En tus ojos encontré mi hogar"</p>
+                </div>
+            </div>
+
+            <div class="gallery-item item-tall">
+                <img src="imagenes/dz7.jpg" alt="Momento romántico 2">
+                <div class="gallery-overlay">
+                    <p>"Cada segundo a tu lado es eterno"</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="imagenes/dz8.jpg" alt="Momento romántico 3">
+                <div class="gallery-overlay">
+                    <p>"Juntos escribimos nuestra historia"</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="imagenes/noe.jpg" alt="Momento romántico 4">
+                <div class="gallery-overlay">
+                    <p>"Tu sonrisa ilumina mi mundo"</p>
+                </div>
+            </div>
+
+            <div class="gallery-item item-wide">
+                <img src="imagenes/dz3.jpg" alt="Momento romántico 5">
+                <div class="gallery-overlay">
+                    <p>"El amor verdadero no conoce límites"</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="imagenes/dz2.jpg" alt="Momento romántico 6">
+                <div class="gallery-overlay">
+                    <p>"Contigo, el destino tiene sentido"</p>
+                </div>
+            </div>
+
+            <div class="gallery-item item-tall">
+                <img src="imagenes/dz1.jpg" alt="Momento romántico 7">
+                <div class="gallery-overlay">
+                    <p>"En la quietud de tus brazos hallé paz"</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="imagenes/dz6.jpg" alt="Momento romántico 8">
+                <div class="gallery-overlay">
+                    <p>"Nuestras almas bailan en sincronía"</p>
+                </div>
+            </div>
+
+            <div class="gallery-item item-large">
+                <img src="imagenes/dz5.jpg" alt="Momento romántico 9">
+                <div class="gallery-overlay">
+                    <p>"Eres mi razón de ser feliz"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Mensajes -->
+    <section id="mensajes" class="messages-section">
+        <h2 class="section-title">Frases</h2>
+        <p class="section-subtitle">Palabras de amor inspiradas en parejas que conocemos</p>
+        
+        <div class="messages-container">
+            <div class="message-card">
+                <div class="message-icon">🌊✨</div>
+                <h3>Odypen</h3>
+                <p>"Como Odiseo y Penélope, somos distancia que no rompe, espera que no cansa y amor que resiste tormentas; porque aunque el viaje sea largo, siempre hay un corazón que teje esperanza hasta verte volver."</p>
+            </div>
+
+            <div class="message-card">
+                <div class="message-icon">🦋✨</div>
+                <h3>Hualian</h3>
+                <p>"Como Xie Lian y Hua Cheng, somos fe que nunca se rompe y devoción que atraviesa siglos; somos la promesa de encontrarnos una y otra vez, aun cuando el mundo nos dé la espalda, porque cuando el amor es verdadero, no conoce caída ni final."</p>
+            </div>
+
+            <div class="message-card">
+                <div class="message-icon">✉️✨</div>
+                <h3>HAMILZA</h3>
+                <p>"Como Eliza y Hamilton, somos cartas guardadas, errores perdonados y un amor que, a pesar de las sombras, decide quedarse y escribir una historia más grande que el orgullo."</p>
+            </div>
+
+            <div class="message-card">
+                <div class="message-icon">🖤🎋</div>
+                <h3>wangxian</h3>
+                <p>"Como Wei Wuxian y Lan Zhan, somos opuestos que se eligen sin dudar; rebeldía y serenidad caminando lado a lado, promesas silenciosas que resisten el tiempo y un amor tan firme que ni el destino logra separarlo."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEGUNDA GALERÍA DE IMÁGENES -->
+    <section id="galeria2" class="gallery-section gallery-section-alt">
+        <h2 class="section-title">Parejas que me recuerdan a nosotras</h2>
+        <p class="section-subtitle">quedate siempre a mi lado</p>
+        
+        <div class="gallery">
+            <div class="gallery-item item-tall">
+                <img src="imagenes/he xuan y mi niño.jpg" alt="Recuerdo especial 1">
+                <div class="gallery-overlay">
+                    <p>"Como ellos, somos destino cruzado y sentimientos que duelen."</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="imagenes/eliza y el perro.jpg" alt="Recuerdo especial 2">
+                <div class="gallery-overlay">
+                    <p>"Como Eliza y Hamilton, somos amor que perdona y permanece."</p>
+                </div>
+            </div>
+
+            <div class="gallery-item item-large">
+                <img src="imagenes/akane y yamada.jpg" alt="Recuerdo especial 3">
+                <div class="gallery-overlay">
+                    <p>"Como Akane y Yamada, somos paciencia y cariño que crece en silencio"</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="imagenes/momo y okarun.jpg" alt="Recuerdo especial 4">
+                <div class="gallery-overlay">
+                    <p>"Como Momo y Okarun, somos locura compartida y lealtad."</p>
+                </div>
+            </div>
+
+            <div class="gallery-item item-wide">
+                <img src="imagenes/horimiya.jpg" alt="Recuerdo especial 5">
+                <div class="gallery-overlay">
+                    <p>"Como Hori y Miyamura, somos verdad sin máscaras."</p>
+                </div>
+            </div>
+
+            <div class="gallery-item item-tall">
+                <img src="imagenes/wangxian.jpg" alt="Recuerdo especial 6">
+                <div class="gallery-overlay">
+                    <p>"Como Wei y Lan, somos caos y calma que se eligen."</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="imagenes/epic.jpg" alt="Recuerdo especial 7">
+                <div class="gallery-overlay">
+                    <p>"Como ellos, somos espera fiel y regreso seguro."</p>
+                </div>
+            </div>
+
+            <div class="gallery-item item-large">
+                <img src="imagenes/hualian.jpg" alt="Recuerdo especial 8">
+                <div class="gallery-overlay">
+                    <p>"Como ellos, somos devoción eterna y fe que nunca cae."</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="imagenes/koga y kagome.jpg" alt="Recuerdo especial 9">
+                <div class="gallery-overlay">
+                    <p>"Como Koga y Kagome, somos impulso valiente y corazón decidido."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Sobre Nosotras</h3>
+                <p>Celebrando el dia del amor y la amistad como es debido, dedicandote esta pagina hecha solo para ti.</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#parejas">Parejas</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#mensajes">Mensajes</a></li>
+                    <li><a href="#galeria2">Más Recuerdos</a></li>
+                </ul>
+            </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 cami_lovely, te quiero</p>
+        </div>
+    </footer>
+
+    <script src="noe.js"></script>
+</body>
+</html>
